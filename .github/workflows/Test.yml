@@ -1,0 +1,9 @@
+name: Test
+on: push
+jobs:
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "test"
+      - name: "ahffk"
+        run: echo "몰라"
