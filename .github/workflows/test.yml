@@ -1,0 +1,10 @@
+name: test
+
+on: [push]
+jobs:
+  Test:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "test"
+      - name: Test
+        run: echo and test
